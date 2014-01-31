@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Fsnavigation
+Bundle-SymbolicName: de.bht.fpa.mail.s786848.fsnavigation;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: de.bht.fpa.mail.s786848.fsnavigation.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ de.bht.fpa.mail.s786848.common;bundle-version="1.0.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: de.bht.fpa.mail.s000000.common.mail.model,
+ de.bht.fpa.mail.s000000.common.mail.testdata,
+ de.bht.fpa.mail.s000000.common.rcp.selection
